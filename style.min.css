@@ -186,7 +186,7 @@
     background: #FFF;
     padding: 16px;
 }
-.search__promo-school div{
+.search__promo-school button{
     position: absolute;
     right: 0;
     top: 0;
@@ -403,6 +403,18 @@
 }
 .bestCourses-content__slider {
     overflow: hidden;
+}
+.bestCourses-content__slider .course-card__body {
+    flex-grow: unset !important;
+}
+.bestCourses-content__slider .course-card {
+    margin-bottom: 0;
+}
+.bestCourses-content__slider .course-card__price {
+    margin-top: 8px;
+}
+.bestCourses-content__slider .course-card__footer {
+    border-radius: 0 0 20px 20px;
 }
 .bestCourses-content__slider .content-grid__table-block-element {
     flex: none !important;
